@@ -1,0 +1,60 @@
+﻿Build started 8/16/2016 3:11:02 PM.
+     1>Project "C:\Users\YEI\Desktop\PrioVRNew\API_SDK\visual_studio\UnityPlugin\YEI_SkelPrio_Plugin_Test\YEI_SkelPrio_Plugin_Test.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\..\..\Prio_API\include /I..\..\..\TSS_API_NEW\include /I..\..\..\Skeleton_API\include /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"bin\Win32\Debug\\" /Fd"bin\Win32\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\..\YEI_Plugin\test\main.cpp
+         main.cpp
+     1>c:\users\yei\desktop\priovrnew\api_sdk\yei_plugin\test\main.cpp(400): warning C4101: 'bone_name' : unreferenced local variable
+     1>c:\users\yei\desktop\priovrnew\api_sdk\yei_plugin\test\main.cpp(698): warning C4101: 'translation' : unreferenced local variable
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\..\bin\Win32\Debug\YEI_SkelPrio_Plugin_Test.exe" /INCREMENTAL /NOLOGO /LIBPATH:..\..\bin\Win32\Debug kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"..\..\bin\Win32\Debug\YEI_SkelPrio_Plugin_Test.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\..\bin\Win32\Debug\YEI_SkelPrio_Plugin_Test.lib" /MACHINE:X86 bin\Win32\Debug\main.obj
+     1>main.obj : error LNK2019: unresolved external symbol _prio_createHub referenced in function "void __cdecl prio_pro_hub_test(void)" (?prio_pro_hub_test@@YAXXZ)
+     1>main.obj : error LNK2019: unresolved external symbol _prio_createBaseStation referenced in function "void __cdecl prio_pro_basestation_test(void)" (?prio_pro_basestation_test@@YAXXZ)
+     1>main.obj : error LNK2019: unresolved external symbol _prio_bs_getWirelessHub referenced in function "void __cdecl prio_pro_basestation_test(void)" (?prio_pro_basestation_test@@YAXXZ)
+     1>main.obj : error LNK2019: unresolved external symbol _prio_findPorts referenced in function "void __cdecl prio_pro_basestation_test(void)" (?prio_pro_basestation_test@@YAXXZ)
+     1>main.obj : error LNK2019: unresolved external symbol _prio_getPort referenced in function "void __cdecl prio_pro_basestation_test(void)" (?prio_pro_basestation_test@@YAXXZ)
+     1>main.obj : error LNK2019: unresolved external symbol _yostskel_getVersionString referenced in function "void __cdecl prio_pro_basestation_test(void)" (?prio_pro_basestation_test@@YAXXZ)
+     1>main.obj : error LNK2019: unresolved external symbol _yostskel_resetSkeletalApi referenced in function "void __cdecl joystick_callback_test(void)" (?joystick_callback_test@@YAXXZ)
+     1>main.obj : error LNK2019: unresolved external symbol _yostskel_getStandardBoneName referenced in function "void __cdecl prio_2_suit_test(void)" (?prio_2_suit_test@@YAXXZ)
+     1>main.obj : error LNK2019: unresolved external symbol _yostskel_createStandardSkeletonWithAge referenced in function "void __cdecl joystick_callback_test(void)" (?joystick_callback_test@@YAXXZ)
+     1>main.obj : error LNK2019: unresolved external symbol _yostskel_createStandardSkeletonWithHeight referenced in function "void __cdecl prio_2_suit_test(void)" (?prio_2_suit_test@@YAXXZ)
+     1>main.obj : error LNK2019: unresolved external symbol _yostskel_destroySkeleton referenced in function "void __cdecl joystick_callback_test(void)" (?joystick_callback_test@@YAXXZ)
+     1>main.obj : error LNK2019: unresolved external symbol _yostskel_setSkeletonToStandardTPose referenced in function "void __cdecl joystick_callback_test(void)" (?joystick_callback_test@@YAXXZ)
+     1>main.obj : error LNK2019: unresolved external symbol _yostskel_addProcessorToSkeleton referenced in function "void __cdecl joystick_callback_test(void)" (?joystick_callback_test@@YAXXZ)
+     1>main.obj : error LNK2019: unresolved external symbol _yostskel_getProcessorListFromSkeleton referenced in function "void __cdecl prio_pro_basestation_test(void)" (?prio_pro_basestation_test@@YAXXZ)
+     1>main.obj : error LNK2019: unresolved external symbol _yostskel_getProcessorNameListFromSkeleton referenced in function "void __cdecl prio_pro_basestation_test(void)" (?prio_pro_basestation_test@@YAXXZ)
+     1>main.obj : error LNK2019: unresolved external symbol _yostskel_update referenced in function "void __cdecl prio_2_suit_test(void)" (?prio_2_suit_test@@YAXXZ)
+     1>main.obj : error LNK2019: unresolved external symbol _yostskel_getRootBoneName referenced in function "void __cdecl prio_pro_basestation_test(void)" (?prio_pro_basestation_test@@YAXXZ)
+     1>main.obj : error LNK2019: unresolved external symbol _yostskel_getBoneOrientationOffset referenced in function "void __cdecl prio_pro_basestation_test(void)" (?prio_pro_basestation_test@@YAXXZ)
+     1>main.obj : error LNK2019: unresolved external symbol _yostskel_getBoneOrientation referenced in function "void __cdecl prio_2_suit_test(void)" (?prio_2_suit_test@@YAXXZ)
+     1>main.obj : error LNK2019: unresolved external symbol _yostskel_getBonePosition referenced in function "void __cdecl prio_pro_basestation_test(void)" (?prio_pro_basestation_test@@YAXXZ)
+     1>main.obj : error LNK2019: unresolved external symbol _yostskel_getBoneVelocity referenced in function "void __cdecl prio_pro_basestation_test(void)" (?prio_pro_basestation_test@@YAXXZ)
+     1>main.obj : error LNK2019: unresolved external symbol _yostskel_getBoneAcceleration referenced in function "void __cdecl prio_pro_basestation_test(void)" (?prio_pro_basestation_test@@YAXXZ)
+     1>main.obj : error LNK2019: unresolved external symbol _yostskel_isCalibrated referenced in function "void __cdecl prio_2_suit_test(void)" (?prio_2_suit_test@@YAXXZ)
+     1>main.obj : error LNK2019: unresolved external symbol _yostskel_utilityRegisterBone referenced in function "void __cdecl prio_pro_basestation_test(void)" (?prio_pro_basestation_test@@YAXXZ)
+     1>main.obj : error LNK2019: unresolved external symbol _yostskel_utilityDeregisterBone referenced in function "void __cdecl prio_pro_basestation_test(void)" (?prio_pro_basestation_test@@YAXXZ)
+     1>main.obj : error LNK2019: unresolved external symbol _yostskel_setControllerUpdateRate referenced in function "void __cdecl joystick_callback_test(void)" (?joystick_callback_test@@YAXXZ)
+     1>main.obj : error LNK2019: unresolved external symbol _yostskel_getControllerUpdateRate referenced in function "void __cdecl joystick_callback_test(void)" (?joystick_callback_test@@YAXXZ)
+     1>main.obj : error LNK2019: unresolved external symbol _yostskel_startControllerUpdating referenced in function "void __cdecl joystick_callback_test(void)" (?joystick_callback_test@@YAXXZ)
+     1>main.obj : error LNK2019: unresolved external symbol _yostskel_stopControllerUpdating referenced in function "void __cdecl joystick_callback_test(void)" (?joystick_callback_test@@YAXXZ)
+     1>main.obj : error LNK2019: unresolved external symbol _yostskel_loadBoneXMLHierarchy referenced in function "void __cdecl joystick_callback_test(void)" (?joystick_callback_test@@YAXXZ)
+     1>main.obj : error LNK2019: unresolved external symbol _yostskel_setStandardDeviceXmlMapPrioProLayout referenced in function "void __cdecl joystick_callback_test(void)" (?joystick_callback_test@@YAXXZ)
+     1>main.obj : error LNK2019: unresolved external symbol _yostskel_destroyProcessor referenced in function "void __cdecl joystick_callback_test(void)" (?joystick_callback_test@@YAXXZ)
+     1>main.obj : error LNK2019: unresolved external symbol _yostskel_createPrioProcessorWithComOffset referenced in function "void __cdecl joystick_callback_test(void)" (?joystick_callback_test@@YAXXZ)
+     1>main.obj : error LNK2019: unresolved external symbol _yostskel_createPrioProcessorWithPrioVRBasestation referenced in function "void __cdecl prio_pro_basestation_test(void)" (?prio_pro_basestation_test@@YAXXZ)
+     1>main.obj : error LNK2019: unresolved external symbol _yostskel_createPrioProcessorWithPrioVRHub referenced in function "void __cdecl prio_pro_hub_test(void)" (?prio_pro_hub_test@@YAXXZ)
+     1>main.obj : error LNK2019: unresolved external symbol _yostskel_getPrioProcessorDeviceIndex referenced in function "void __cdecl joystick_callback_test(void)" (?joystick_callback_test@@YAXXZ)
+     1>main.obj : error LNK2019: unresolved external symbol _yostskel_getPrioProcessorDeviceType referenced in function "void __cdecl prio_2_suit_test(void)" (?prio_2_suit_test@@YAXXZ)
+     1>main.obj : error LNK2019: unresolved external symbol _yostskel_calibratePrioProcessor referenced in function "void __cdecl joystick_callback_test(void)" (?joystick_callback_test@@YAXXZ)
+     1>main.obj : error LNK2019: unresolved external symbol _yostskel_setupStandardStreamPrioProcessor referenced in function "void __cdecl prio_2_suit_test(void)" (?prio_2_suit_test@@YAXXZ)
+     1>main.obj : error LNK2019: unresolved external symbol _yostskel_startPrioProcessor referenced in function "void __cdecl prio_2_suit_test(void)" (?prio_2_suit_test@@YAXXZ)
+     1>main.obj : error LNK2019: unresolved external symbol _yostskel_stopPrioProcessor referenced in function "void __cdecl prio_2_suit_test(void)" (?prio_2_suit_test@@YAXXZ)
+     1>main.obj : error LNK2019: unresolved external symbol _yostskel_getHubBatteryLevel referenced in function "void __cdecl joystick_callback_test(void)" (?joystick_callback_test@@YAXXZ)
+     1>main.obj : error LNK2019: unresolved external symbol _yostskel_getJoyStickStatePrioProcessor referenced in function "void __cdecl joystick_callback_test(void)" (?joystick_callback_test@@YAXXZ)
+     1>main.obj : error LNK2019: unresolved external symbol _yostskel_getActiveJoySticksPrioProcessor referenced in function "void __cdecl joystick_callback_test(void)" (?joystick_callback_test@@YAXXZ)
+     1>main.obj : error LNK2019: unresolved external symbol _yostskel_hasPrioProcessorUpdatedState referenced in function "void __cdecl prio_pro_basestation_test(void)" (?prio_pro_basestation_test@@YAXXZ)
+     1>..\..\bin\Win32\Debug\YEI_SkelPrio_Plugin_Test.exe : fatal error LNK1120: 45 unresolved externals
+     1>Done Building Project "C:\Users\YEI\Desktop\PrioVRNew\API_SDK\visual_studio\UnityPlugin\YEI_SkelPrio_Plugin_Test\YEI_SkelPrio_Plugin_Test.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.32

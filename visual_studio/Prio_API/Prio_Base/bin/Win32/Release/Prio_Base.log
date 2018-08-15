@@ -1,0 +1,59 @@
+﻿Build started 8/19/2016 7:42:21 PM.
+     1>Project "C:\Users\YEI\Desktop\PrioVRNew\API_SDK\visual_studio\Prio_API\Prio_Base\Prio_Base.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IC:\Users\YEI\Desktop\PrioVRNew\API_SDK\Prio_API\include /IC:\Users\YEI\Desktop\PrioVRNew\API_SDK\Utils\Serial\include /IC:\Users\YEI\Desktop\PrioVRNew\API_SDK\Utils\YEI\include /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"bin\Win32\Release\\" /Fd"bin\Win32\Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\..\Prio_API\src\prio_api.cpp ..\..\..\Prio_API\src\prio_api_export.cpp ..\..\..\Prio_API\src\prio_basestation.cpp ..\..\..\Prio_API\src\prio_device.cpp ..\..\..\Prio_API\src\prio_hub.cpp ..\..\..\Prio_API\src\win.cpp ..\..\..\Utils\Serial\src\impl\unix.cc ..\..\..\Utils\Serial\src\impl\win.cc ..\..\..\Utils\Serial\src\serial_enumerator_win.cpp ..\..\..\Utils\YEI\src\yost_math.cpp
+         prio_api.cpp
+         prio_api_export.cpp
+     1>..\..\..\Prio_API\src\prio_api_export.cpp(281): warning C4244: '=' : conversion from 'U32' to 'float', possible loss of data
+         prio_basestation.cpp
+         prio_device.cpp
+     1>..\..\..\Prio_API\src\prio_device.cpp(407): warning C4101: 'error' : unreferenced local variable
+         prio_hub.cpp
+     1>..\..\..\Prio_API\src\prio_hub.cpp(26): warning C4018: '<' : signed/unsigned mismatch
+     1>..\..\..\Prio_API\src\prio_hub.cpp(51): warning C4018: '<' : signed/unsigned mismatch
+     1>..\..\..\Prio_API\src\prio_hub.cpp(66): warning C4018: '<' : signed/unsigned mismatch
+     1>..\..\..\Prio_API\src\prio_hub.cpp(95): warning C4244: 'initializing' : conversion from 'U64' to 'U8', possible loss of data
+     1>..\..\..\Prio_API\src\prio_hub.cpp(98): warning C4244: 'initializing' : conversion from 'U64' to 'U8', possible loss of data
+     1>..\..\..\Prio_API\src\prio_hub.cpp(145): warning C4018: '<' : signed/unsigned mismatch
+     1>..\..\..\Prio_API\src\prio_hub.cpp(165): warning C4018: '<' : signed/unsigned mismatch
+     1>..\..\..\Prio_API\src\prio_hub.cpp(182): warning C4018: '<' : signed/unsigned mismatch
+     1>..\..\..\Prio_API\src\prio_hub.cpp(198): warning C4018: '<' : signed/unsigned mismatch
+     1>..\..\..\Prio_API\src\prio_hub.cpp(230): warning C4018: '<' : signed/unsigned mismatch
+     1>..\..\..\Prio_API\src\prio_hub.cpp(245): warning C4018: '<' : signed/unsigned mismatch
+     1>..\..\..\Prio_API\src\prio_hub.cpp(274): warning C4244: 'initializing' : conversion from 'U64' to 'U8', possible loss of data
+     1>..\..\..\Prio_API\src\prio_hub.cpp(277): warning C4244: 'initializing' : conversion from 'U64' to 'U8', possible loss of data
+     1>..\..\..\Prio_API\src\prio_hub.cpp(327): warning C4018: '<' : signed/unsigned mismatch
+     1>..\..\..\Prio_API\src\prio_hub.cpp(347): warning C4018: '<' : signed/unsigned mismatch
+     1>..\..\..\Prio_API\src\prio_hub.cpp(979): warning C4244: 'return' : conversion from 'float' to 'U32', possible loss of data
+         win.cpp
+         unix.cc
+         win.cc
+         serial_enumerator_win.cpp
+         yost_math.cpp
+     1>..\..\..\Utils\YEI\src\yost_math.cpp(270): warning C4305: 'argument' : truncation from 'double' to 'float'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\..\bin\Win32\Release\Prio_API_32.dll" /NOLOGO setupapi.lib bthprops.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"..\..\bin\Win32\Release\Prio_API_32.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\..\bin\Win32\Release\Prio_API_32.lib" /MACHINE:X86 /SAFESEH /DLL bin\Win32\Release\prio_api.obj
+         bin\Win32\Release\prio_api_export.obj
+         bin\Win32\Release\prio_basestation.obj
+         bin\Win32\Release\prio_device.obj
+         bin\Win32\Release\prio_hub.obj
+         bin\Win32\Release\win.obj
+         bin\Win32\Release\unix.obj
+         bin\Win32\Release\win.obj
+         bin\Win32\Release\serial.obj
+         bin\Win32\Release\serial_enumerator.obj
+         bin\Win32\Release\serial_enumerator_linux.obj
+         bin\Win32\Release\serial_enumerator_osx.obj
+         bin\Win32\Release\serial_enumerator_win.obj
+         bin\Win32\Release\yost_core_api.obj
+         bin\Win32\Release\yost_math.obj
+     1>bin\Win32\Release\win.obj : warning LNK4042: object specified more than once; extras ignored
+            Creating library ..\..\bin\Win32\Release\Prio_API_32.lib and object ..\..\bin\Win32\Release\Prio_API_32.exp
+         Generating code
+         Finished generating code
+         Prio_Base.vcxproj -> C:\Users\YEI\Desktop\PrioVRNew\API_SDK\visual_studio\Prio_API\Prio_Base\..\..\bin\Win32\Release\Prio_API_32.dll
+     1>Done Building Project "C:\Users\YEI\Desktop\PrioVRNew\API_SDK\visual_studio\Prio_API\Prio_Base\Prio_Base.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:05.50

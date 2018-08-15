@@ -1,0 +1,16 @@
+﻿  yost_pedestrian_tracking_processor.cpp
+..\..\..\Skeleton_API\src\yost_pedestrian_tracking_processor.cpp(177): warning C4018: '<': signed/unsigned mismatch
+..\..\..\Skeleton_API\src\yost_pedestrian_tracking_processor.cpp(201): warning C4018: '>': signed/unsigned mismatch
+..\..\..\Skeleton_API\src\yost_pedestrian_tracking_processor.cpp(315): warning C4018: '<': signed/unsigned mismatch
+..\..\..\Skeleton_API\src\yost_pedestrian_tracking_processor.cpp(321): warning C4018: '<': signed/unsigned mismatch
+..\..\..\Skeleton_API\src\yost_pedestrian_tracking_processor.cpp(328): warning C4018: '<': signed/unsigned mismatch
+  yost_skeleton_core_api.cpp
+..\..\..\Skeleton_API\src\yost_skeleton_core_api.cpp(1854): warning C4018: '<': signed/unsigned mismatch
+..\..\..\Skeleton_API\src\yost_skeleton_core_api.cpp(1868): warning C4018: '<': signed/unsigned mismatch
+     Creating library ..\..\bin\Win32\Release\YOSTSkeletonPlugin_Win32.lib and object ..\..\bin\Win32\Release\YOSTSkeletonPlugin_Win32.exp
+  Generating code
+  10 of 5696 functions ( 0.2%) were compiled, the rest were copied from previous compilation.
+    1 functions were new in current compilation
+    91 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  UnityPlugin.vcxproj -> C:\Users\YEI\Desktop\PrioVRNew\API_SDK\visual_studio\UnityPlugin\UnityPlugin\..\..\bin\Win32\Release\YOSTSkeletonPlugin_Win32.dll

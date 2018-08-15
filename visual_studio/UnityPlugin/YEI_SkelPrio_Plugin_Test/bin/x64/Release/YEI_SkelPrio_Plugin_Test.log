@@ -1,0 +1,13 @@
+﻿  main.cpp
+c:\users\emanuel\desktop\api_sdk\yei_plugin\test\main.cpp(282): warning C4477: 'printf' : la cadena de formato '%f' requiere un argumento de tipo 'double', pero el argumento variádico 1 tiene el tipo 'clock_t'
+c:\users\emanuel\desktop\api_sdk\yei_plugin\test\main.cpp(219): warning C4101: 'translation': variable local sin referencia
+c:\users\emanuel\desktop\api_sdk\yei_plugin\test\main.cpp(671): warning C4477: 'printf' : la cadena de formato '%f' requiere un argumento de tipo 'double', pero el argumento variádico 1 tiene el tipo 'clock_t'
+c:\users\emanuel\desktop\api_sdk\yei_plugin\test\main.cpp(1025): warning C4477: 'printf' : la cadena de formato '%f' requiere un argumento de tipo 'double', pero el argumento variádico 1 tiene el tipo 'clock_t'
+c:\users\emanuel\desktop\api_sdk\yei_plugin\test\main.cpp(1383): warning C4477: 'printf' : la cadena de formato '%f' requiere un argumento de tipo 'double', pero el argumento variádico 1 tiene el tipo 'clock_t'
+c:\users\emanuel\desktop\api_sdk\yei_plugin\test\main.cpp(1285): warning C4101: 'translation': variable local sin referencia
+  Generando código
+  0 of 31 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Generación de código finalizada
+  YEI_SkelPrio_Plugin_Test.vcxproj -> C:\Users\Emanuel\Desktop\API_SDK\visual_studio\UnityPlugin\YEI_SkelPrio_Plugin_Test\..\..\bin\x64\Release\YEI_SkelPrio_Plugin_Test.exe

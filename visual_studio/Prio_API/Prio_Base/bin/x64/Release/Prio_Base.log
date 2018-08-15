@@ -1,0 +1,9 @@
+﻿Build started 8/19/2016 7:45:06 PM.
+     1>Project "C:\Users\YEI\Desktop\PrioVRNew\API_SDK\visual_studio\Prio_API\Prio_Base\Prio_Base.vcxproj" on node 2 (Build target(s)).
+     1>Link:
+         Prio_Base.vcxproj -> C:\Users\YEI\Desktop\PrioVRNew\API_SDK\visual_studio\Prio_API\Prio_Base\..\..\bin\x64\Release\Prio_API_64.dll
+     1>Done Building Project "C:\Users\YEI\Desktop\PrioVRNew\API_SDK\visual_studio\Prio_API\Prio_Base\Prio_Base.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.17

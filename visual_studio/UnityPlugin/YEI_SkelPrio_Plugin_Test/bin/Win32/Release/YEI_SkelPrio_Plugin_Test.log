@@ -1,0 +1,12 @@
+﻿  main.cpp
+..\..\..\YEI_Plugin\test\main.cpp(281): warning C4477: 'printf' : format string '%f' requires an argument of type 'double', but variadic argument 1 has type 'clock_t'
+..\..\..\YEI_Plugin\test\main.cpp(126): warning C4101: 'bone_name': unreferenced local variable
+..\..\..\YEI_Plugin\test\main.cpp(218): warning C4101: 'translation': unreferenced local variable
+..\..\..\YEI_Plugin\test\main.cpp(669): warning C4477: 'printf' : format string '%f' requires an argument of type 'double', but variadic argument 1 has type 'clock_t'
+..\..\..\YEI_Plugin\test\main.cpp(1023): warning C4477: 'printf' : format string '%f' requires an argument of type 'double', but variadic argument 1 has type 'clock_t'
+  Generating code
+  2 of 6 functions (33.3%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  YEI_SkelPrio_Plugin_Test.vcxproj -> C:\Users\YEI\Desktop\PrioVRNew\API_SDK\visual_studio\UnityPlugin\YEI_SkelPrio_Plugin_Test\..\..\bin\Win32\Release\YEI_SkelPrio_Plugin_Test.exe
